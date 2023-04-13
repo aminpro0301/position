@@ -1,0 +1,74 @@
+.menu{
+	text-align: center;/*poner las palabras en el centro*/
+	background: #e86548;/*es el fondo de div  */
+	padding: 5px;/*para ser el cuadrado mas grande*/
+	padding-top: 10px;/*para ariva del cuadrado se mas grande por ariva */
+	padding-bottom: 10px;/*para abajo para tener mas espasio*/
+	position: fixed ;/*para que el div iga ahi para siempre*/
+	width: 100%;/*cuadrado completo*/
+	border: solid black 15px;
+	border-image: url(1068727.png) 30 round ;
+}
+
+a {
+	margin-left: 50px;/*sirve para tener espasio en la iscierda*/
+	text-decoration: none;/*sirve para que no este los puntos*/
+}
+
+a:hover {
+	border: solid black;/*sierve para que se un cuadrado*/
+	padding: 5px;/**/
+	color: green;/*color*/
+	background: yellow;
+}
+p:hover{
+	color: aqua;
+}
+ 
+.text:hover{
+	color: red ;
+}
+
+.text2:hover {
+	color: blue;
+}
+
+.menu:hover{
+	background: orange;
+}
+ 
+.first {
+ 	width: 350px;
+ 	border: solid black 30px;
+ 	border-image: linear-gradient(blue,purple) 30;
+ 	position: absolute;
+ 	top: 450px;
+ 	left: 300px;
+
+ }
+ .hola {
+ 	border: solid blue 3px;
+ 	width: 30px;
+ 	height: 50px;
+ 	position: absolute;
+ 	top: 350px;
+ 	left: 250px;
+ }
+ .hola:hover{
+ 	border-color: red;
+ }
+ .second {
+ 	width: 250px;
+ 	border: solid red 25px;
+ 	border-image:linear-gradient(red,black,purple,blue) 10 ;
+ 	position: absolute;
+ 	top: 100px;
+ 	left: 660px;
+ }
+ .second:hover {
+ 	border-image: linear-gradient(yellow,orange,aqua,green) 10;
+ }
+
+ .first:hover{
+ 	border-image: linear-gradient(yellow,red,bisque,azure) 10 ;
+ }
